@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'xtoniqicon';
+  src:  url('fonts/xtoniqicon.eot?6e2g4e');
+  src:  url('fonts/xtoniqicon.eot?6e2g4e#iefix') format('embedded-opentype'),
+    url('fonts/xtoniqicon.ttf?6e2g4e') format('truetype'),
+    url('fonts/xtoniqicon.woff?6e2g4e') format('woff'),
+    url('fonts/xtoniqicon.svg?6e2g4e#xtoniqicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xtoniqicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minusIcon:before {
+  content: "\e900";
+}
+.icon-arrowUp:before {
+  content: "\e901";
+}
+.icon-arrowDown:before {
+  content: "\e902";
+}
+.icon-plusIcon:before {
+  content: "\e903";
+}
+.icon-infoIcon:before {
+  content: "\e904";
+}
+.icon-closeIcon:before {
+  content: "\e905";
+}
+.icon-arrowLeft:before {
+  content: "\e906";
+}
+.icon-arrowRight:before {
+  content: "\e907";
+}
